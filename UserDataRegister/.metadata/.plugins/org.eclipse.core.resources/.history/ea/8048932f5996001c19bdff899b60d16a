@@ -1,0 +1,12 @@
+package com.userdata.demo;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class UserController {
+
+	@GetMapping("")
+	public String viewHomePage( ) {
+		return "kiran";
+	}
+}
